@@ -1,0 +1,168 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden; /* Ensure no horizontal scrolling */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 50%; /* Center the header */
+  transform: translateX(-50%); /* Adjust for centering */
+  width: 90%; /* Adjusted width as a percentage */
+  max-width: 1300px; /* Maximum width for larger screens */
+  height: 69px;
+  background-color: black;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+  margin: 0 15px;
+  position: relative;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: seashell;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+section {
+  max-width: 1200px;
+  margin: 70px auto 0; /* Adjusted top margin to provide space below the fixed header */
+  background-color: transparent; /* Adjust as needed */
+  color: seashell;
+  text-align: left; /* Align text to the left within sections */
+}
+
+.mission {
+  height: 700px;
+  background-image: url("../assets/images/img-mission-background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mission-content {
+  background-color: black;
+  width: 100%; /* Set the width to 100% */
+  max-width: 1200px; /* Set a maximum width if needed */
+  padding: 10px; /* Adjust as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.mission h2,
+.mission h4 {
+  margin: 0;
+  color: seashell;
+}
+
+.featured-tea {
+  height: 700px;
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  color: seashell;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-tea {
+  height: 700px;
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  color: seashell;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-tea h2 {
+  margin: 0 auto;
+}
+
+.featured-tea h4 {
+  margin: 20px auto;
+}
+
+.tea-images {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+}
+
+.tea-row {
+  display: flex;
+  flex: 0 0 100%; /* Full width for each row */
+  justify-content: space-between;
+}
+
+.tea-item {
+  flex: 0 0 calc(33.333% - 20px); /* Adjusted width calculation for each item with gap */
+  text-align: center;
+}
+
+.tea-item img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for each image */
+  max-width: 300px;
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+.tea-item h4 {
+  margin-top: 10px;
+}
+
+/* Center the second row */
+.tea-row.second-row {
+  justify-content: center;
+  gap: 30px;
+}

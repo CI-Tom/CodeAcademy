@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+div.roboto {
+  margin-bottom: 20px;
+}
+
+.roboto div {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#seperator {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.roboto #light,
+#light-italic {
+  font-weight: 300;
+}
+
+.roboto #light-italic {
+  font-style: italic;
+}
+
+.roboto #regular-italic {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.roboto #bold,
+#bold-italic {
+  font-weight: 700;
+}
+
+.roboto #bold-italic {
+  font-style: italic;
+}
+
+.open-sans div {
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+}

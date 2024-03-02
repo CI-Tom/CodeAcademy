@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: #fff8e7;
+}
+
+hr {
+  width: 50%;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0, 68, 141);
+}
+
+header {
+  text-align: center;
+  background-image: url("./images/header_background.png");
+  width: 100%;
+  max-height: fit-content;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 75px;
+  font-family: "Honk", system-ui;
+  padding-bottom: 10px;
+}
+
+nav {
+  padding: 10px 0;
+  text-align: center;
+}
+
+li {
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.sections {
+  margin: 0 auto;
+  display: inline;
+  padding: 0;
+}
+
+.colors {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.colors h2 {
+  font-family: "Gaegu", sans-serif;
+  display: inline;
+  font-size: 50px;
+}
+
+#samples section {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#header-container {
+  max-width: fit-content;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 6px;
+  background-color: lightskyblue;
+}
+
+#c {
+  color: red;
+}
+#o1 {
+  color: orange;
+}
+#l {
+  color: yellow;
+}
+#o2 {
+  color: green;
+}
+#u {
+  color: blue;
+}
+#r {
+  color: indigo;
+}
+#s {
+  color: violet;
+}
+
+.fonts {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fonts h2 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-family: "Anton", sans-serif;
+  margin: 0 auto;
+}
+
+.texts h2 {
+  font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+h2 #btn-main {
+  display: inline-block;
+  padding: 10px 20px;
+  color: blue;
+  font-family: "Gaegu", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid blue;
+  background-color: aqua;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.1s ease;
+}
+
+#btn-main:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#btn-main:active {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.screens {
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+#samples {
+  text-align: center;
+}
