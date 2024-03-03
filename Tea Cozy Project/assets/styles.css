@@ -10,6 +10,7 @@ body {
   overflow-x: hidden; /* Ensure no horizontal scrolling */
 }
 
+/* Header and Navigation */
 header {
   position: fixed;
   top: 0;
@@ -62,6 +63,7 @@ nav a:hover::after {
   width: 100%;
 }
 
+/* Mission Section */
 section {
   max-width: 1200px;
   margin: 70px auto 0; /* Adjusted top margin to provide space below the fixed header */
@@ -96,6 +98,7 @@ section {
   color: seashell;
 }
 
+/* Tea of The Month Section */
 .featured-tea {
   height: 700px;
   width: 1000px;
@@ -165,4 +168,48 @@ section {
 .tea-row.second-row {
   justify-content: center;
   gap: 30px;
+}
+
+/* Locations Section */
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  margin-top: 0;
+  background-image: url(../assets/images/img-locations-background.webp);
+}
+
+.location {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+}
+
+.locations div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.location {
+  margin: 0 20px;
+}
+
+.stores {
+  margin-bottom: 150px;
+}
+
+.cozy {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
