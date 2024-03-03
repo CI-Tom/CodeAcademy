@@ -173,7 +173,7 @@ section {
 /* Locations Section */
 .locations {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   height: 700px;
@@ -186,7 +186,6 @@ section {
   justify-content: center;
   align-items: center;
   background-color: black;
-  height: 300px;
   width: 300px;
 }
 
@@ -196,12 +195,13 @@ section {
   align-items: center;
 }
 
-div.location {
-  margin: 0 20px;
+.locations #locations-header {
+  margin-top: 47px;
+  margin-bottom: 15px;
 }
 
-.stores {
-  margin-bottom: 150px;
+div.location {
+  margin: 0 20px;
 }
 
 .cozy {
